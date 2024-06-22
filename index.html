@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Piccoli Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--BOXICONS no te confundas bobo-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--remixicons here-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Animatons-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 1,
+        });
+    </script>
+
+
+    <header>
+        <a href="#" class="logo">
+            <img src="imgs/logo 2.png">
+        </a>
+
+
+        <ul class="navlist">
+            <li><a href="#">About me</a></li>
+            <li><a href="https://www.linkedin.com/in/piccolimaximoin/">Linkedin</a></li>
+            <li><a href="#" id="my-work-link">My work</a></li>
+
+        </ul>
+
+        <div class="right-content">
+            <a href="#" class="nav-btn" id="open-modal">More!</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+        <!-- Ventana modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" id="close-modal">&times;</span>
+                <p>Soon!</p>
+            </div>
+        </div>
+
+
+
+    </header>
+
+    <section class="flyer">
+        <div class="flyer-text">
+            <h5 data-aos="fade-right" data-aos-duration="1400">#Junior Programmer Presentation!</h5>
+            <h1 data-aos="fade-left" data-aos-duration="1400" data-aos-delay="200">- Máximo Piccoli</h1>
+            <p data-aos="fade-right" data-aos-duration="1400" data-aos-delay="200">Hello! I'm a junior programmer and
+                UX/UI designer with experience in interface and backend development.
+                My portfolio is my business card, showcasing my skills in various programming languages and graphic
+                design tools. If you're seeking a versatile and dedicated talent for your team, I'm here to help! Take a
+                look at my work and reach out to discuss how I can contribute to your company's success!</p>
+
+            <div class="main-flyer" data-aos="flip-down" data-aos-duration="1400" data-aos-delay="300">
+                <a href="#" class="btn" id="contactBtn">Contact</a>
+                <a href="#" class="price">Price? | <span>Varies based on the assigned task/role.</span></a>
+            </div>
+
+        </div>
+        </div>
+
+        <div class="flyer-img" data-aos="zoom-in" data-aos-duration="1400" data-aos-delay="">
+            <img src="imgs/flyer.png">
+        </div>
+
+    </section>
+
+
+    <!-- SECCION DIV DE ICONOS-->
+
+    <div class="icons">
+        <span class="email-icon" data-email="piccolimaximo@gmail.com" data-aos="fade-in" data-aos-duration="1400"
+            data-aos-delay="600">
+            <i class="ri-mail-line"></i>
+        </span>
+        <a href="https://www.linkedin.com/in/piccolimaximoin/" data-aos="fade-in" data-aos-duration="1400"
+            data-aos-delay="700">
+            <i class="ri-linkedin-fill"></i>
+        </a>
+        <a href="https://www.instagram.com/maximopiccoli/" data-aos="fade-in" data-aos-duration="1400"
+            data-aos-delay="800">
+            <i class="ri-instagram-line"></i>
+        </a>
+    </div>
+
+
+
+    <!--SCROLL ICON-->
+
+    <div class="scroll">
+        <a href="#">
+            <i class="ri-scroll-to-bottom-line"></i>
+            Scroll
+        </a>
+    </div>
+
+    <!--MODAL 2-->
+    <div id="modal2" class="modal2">
+        <div class="modal2-content">
+            <span class="modal2-close">&times;</span>
+            <h2>Contact!</h2>
+            <p>Email: piccolimaximo@gmail.com</p>
+            <p2>Phone: +54 343 698-9310</p2>
+        </div>
+    </div>
+
+
+    <div id="modal3" class="modal3">
+        <div class="modal3-content">
+            <span class="modal3-close">&times;</span>
+            <h2>About Me</h2>
+            <p>Hi, I'm Maximo. I'm committed to programming, designing, and editing photos and videos, and integrating
+                them with web design. I'm currently studying Systems Analysis. This page stands out for my unique
+                minimalist style. I'm an avid self-learner; I immerse myself in reading books on various topics such as
+                philosophy, personal development, and finance, as well as dedicating time to programming websites in my
+                spare moments. I maintain healthy habits and constantly seek ways to improve and grow. If you're viewing
+                this page, I would love the opportunity to work with you and contribute my knowledge and skills to your
+                company for mutual benefit.</p>
+
+        </div>
+    </div>
+
+
+
+    <div id="modal4" class="modal4">
+        <div class="modal4-content">
+            <span class="modal4-close">&times;</span>
+            <h2>My Work</h2>
+            <p>Soon</p>
+        </div>
+    </div>
+
+
+
+    <!--link a JAVASCRIPT-->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
